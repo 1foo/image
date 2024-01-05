@@ -1,0 +1,308 @@
+<mxfile host="app.diagrams.net" modified="2024-01-05T09:18:44.686Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="lAmFCeTWlpjBLUHEJxpR" version="22.1.16" type="github">
+  <diagram name="第 1 页" id="8yKIOpK2Lv_UuuqutQYK">
+    <mxGraphModel dx="1593" dy="867" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-17" value="计算当前金币价值" style="swimlane;html=1;startSize=20;horizontal=0;childLayout=flowLayout;flowOrientation=west;resizable=0;interRankCellSpacing=50;containerType=tree;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="120" y="280" width="930" height="710" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-18" value="计算当前金币价值&lt;br&gt;剩余美元 / 剩余金币" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="40" y="316.24156378600827" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-19" value="剩余美元" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="210" y="208.52671848803539" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-20" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17" source="PdZ2aW4lPCYkZ0KQYYpu-18" target="PdZ2aW4lPCYkZ0KQYYpu-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="172" y="329.99156378600827" />
+              <mxPoint x="198" y="228.52671848803539" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-21" value="剩余金币" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="210" y="427.22524005486974" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-22" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17" source="PdZ2aW4lPCYkZ0KQYYpu-18" target="PdZ2aW4lPCYkZ0KQYYpu-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="172" y="347.49156378600827" />
+              <mxPoint x="198" y="447.22524005486974" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-28" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-29" source="PdZ2aW4lPCYkZ0KQYYpu-19" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4085" y="2586" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="322" y="221.02671848803539" />
+              <mxPoint x="348" y="126.75262917238224" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-29" value="生产" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="360" y="106.75262917238224" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-30" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-31" source="PdZ2aW4lPCYkZ0KQYYpu-19" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="4005" y="2546" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="322" y="236.02671848803539" />
+              <mxPoint x="348" y="220.08596250571557" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-31" value="消费" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="360" y="200.08596250571557" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-32" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-33" source="PdZ2aW4lPCYkZ0KQYYpu-21" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3925" y="2524" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="322" y="439.72524005486974" />
+              <mxPoint x="348" y="429.16543209876545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-33" value="生产" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="360" y="409.16543209876545" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-34" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-35" source="PdZ2aW4lPCYkZ0KQYYpu-21" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3640" y="2079" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="322" y="454.72524005486974" />
+              <mxPoint x="348" y="571.9423868312757" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-35" value="消费" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="360" y="551.9423868312757" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-36" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-37" source="PdZ2aW4lPCYkZ0KQYYpu-29" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3710" y="2011" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="472" y="119.25262917238224" />
+              <mxPoint x="498" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-37" value="用户充值" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-38" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-39" source="PdZ2aW4lPCYkZ0KQYYpu-31" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3630" y="1986" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="472" y="212.58596250571557" />
+              <mxPoint x="498" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-39" value="用户抽奖&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-42" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-43" source="PdZ2aW4lPCYkZ0KQYYpu-31" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3550" y="1946" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="472" y="227.58596250571557" />
+              <mxPoint x="498" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-43" value="用户提货" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="230" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-44" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-45" source="PdZ2aW4lPCYkZ0KQYYpu-39" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3620" y="1903" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="622" y="180" />
+              <mxPoint x="648" y="181.09375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-45" value="消耗的金币数 *&amp;nbsp; 当前汇率" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="660" y="161.09375" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-46" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-47" source="PdZ2aW4lPCYkZ0KQYYpu-43" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3540" y="1878" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="622" y="250" />
+              <mxPoint x="648" y="251.09375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-47" value="消耗的金币数 * 当前汇率" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="660" y="231.09375" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-48" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-49" source="PdZ2aW4lPCYkZ0KQYYpu-33" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3190" y="1844" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="472" y="417.91543209876545" />
+              <mxPoint x="498" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-49" value="充值金币+" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="300" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-50" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-51" source="PdZ2aW4lPCYkZ0KQYYpu-33" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3070" y="1784" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="474" y="425.41543209876545" />
+              <mxPoint x="498" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-51" value="优惠券领取+" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-52" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-53" source="PdZ2aW4lPCYkZ0KQYYpu-33" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2950" y="1759" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="474" y="432.91543209876545" />
+              <mxPoint x="498" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-53" value="兑换魂晶+" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="440" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-54" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-55" source="PdZ2aW4lPCYkZ0KQYYpu-35" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2870" y="1769" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="472" y="564.4423868312757" />
+              <mxPoint x="498" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-55" value="抽奖抵扣" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="580" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-62" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-63" source="PdZ2aW4lPCYkZ0KQYYpu-35" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2470" y="1625" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="472" y="579.4423868312757" />
+              <mxPoint x="498" y="670" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-63" value="提货" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-68" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-69" source="PdZ2aW4lPCYkZ0KQYYpu-63" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2380" y="1635" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="622" y="670" />
+              <mxPoint x="648" y="668.359375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-69" value="金币、魂晶、优惠券抵扣" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="660" y="648.359375" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-70" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-71" source="PdZ2aW4lPCYkZ0KQYYpu-45" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2410" y="1230" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="772" y="181.09375" />
+              <mxPoint x="798" y="181.09375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-71" value="金币 = 优惠券+魂晶+金币" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="810" y="161.09375" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-72" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-73" source="PdZ2aW4lPCYkZ0KQYYpu-47" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2330" y="1260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="772" y="251.09375" />
+              <mxPoint x="798" y="251.09375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-73" value="金币 = 优惠券+魂晶+金币" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="810" y="231.09375" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-89" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-90" source="PdZ2aW4lPCYkZ0KQYYpu-69" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1850" y="1380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="772" y="668.359375" />
+              <mxPoint x="798" y="668.359375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-90" value="金币" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="810" y="648.359375" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-96" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-97" source="PdZ2aW4lPCYkZ0KQYYpu-29" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="884" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="472" y="134.25262917238223" />
+              <mxPoint x="498" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-97" value="工单充值" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="90" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-98" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-99" source="PdZ2aW4lPCYkZ0KQYYpu-33" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1190" y="1058" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="472" y="440.41543209876545" />
+              <mxPoint x="498" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-99" value="工单充值+" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="510" y="510" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-114" value="" style="html=1;rounded=1;curved=0;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;startSize=6;endSize=6;noEdgeStyle=1;orthogonal=1;" edge="1" target="PdZ2aW4lPCYkZ0KQYYpu-115" source="PdZ2aW4lPCYkZ0KQYYpu-55" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="904" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="622" y="600" />
+              <mxPoint x="648" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-115" value="金币、魂晶、优惠券抵扣" style="whiteSpace=wrap;html=1;" vertex="1" parent="PdZ2aW4lPCYkZ0KQYYpu-17">
+          <mxGeometry x="660" y="370" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="650" as="sourcePoint" />
+            <mxPoint x="240" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1120" y="650" />
+              <mxPoint x="1120" y="240" />
+              <mxPoint x="70" y="240" />
+              <mxPoint x="70" y="820" />
+              <mxPoint x="240" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PdZ2aW4lPCYkZ0KQYYpu-95" value="每产生一笔变动都要计入总账" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PdZ2aW4lPCYkZ0KQYYpu-93">
+          <mxGeometry x="0.1973" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
