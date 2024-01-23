@@ -1,9 +1,187 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T03:42:31.001Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.21" etag="v1D6Vm1juZoeGDP7axDs" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T08:45:13.974Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="iOvy5sPeR3ddRK4kMLMs" version="22.1.21" type="github">
   <diagram name="第 1 页" id="ISfDw64nk_qf1rq28ddD">
-    <mxGraphModel>
+    <mxGraphModel dx="2390" dy="5981" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VrQXF3fN7DeIP3aD_8pw-4" value="包裹单状态" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="-390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1760" y="-560" width="590" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-3" value="提货单状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="-830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-4" value="渠道单状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-5" value="包裹单状态" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-9" target="Uqmoy1jpgpemaKrawUoX-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1970" y="-800" />
+              <mxPoint x="1970" y="-680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-9" target="Uqmoy1jpgpemaKrawUoX-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1970" y="-800" />
+              <mxPoint x="1970" y="-1050" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-9" target="Uqmoy1jpgpemaKrawUoX-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-9" value="待支付&lt;br&gt;0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="-830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-11" target="Uqmoy1jpgpemaKrawUoX-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-11" value="已支付/ 待处理&lt;br&gt;1" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="-710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-12" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-15" target="Uqmoy1jpgpemaKrawUoX-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-15" target="Uqmoy1jpgpemaKrawUoX-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-14" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-15" target="Uqmoy1jpgpemaKrawUoX-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-15" value="支付异常" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="-830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-18" target="Uqmoy1jpgpemaKrawUoX-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-18" value="处理中&lt;br&gt;2" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-22" target="Uqmoy1jpgpemaKrawUoX-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1970" y="-400" />
+              <mxPoint x="1970" y="-270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-22" target="Uqmoy1jpgpemaKrawUoX-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1960" y="-400" />
+              <mxPoint x="1960" y="-400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-22" target="Uqmoy1jpgpemaKrawUoX-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1970" y="-400" />
+              <mxPoint x="1970" y="-520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-22" value="待发货&lt;br&gt;1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1770" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-24" target="Uqmoy1jpgpemaKrawUoX-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-24" value="可发货&lt;br&gt;2" style="whiteSpace=wrap;html=1;rounded=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-26" target="Uqmoy1jpgpemaKrawUoX-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-26" value="待处理&lt;br&gt;1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-28" target="Uqmoy1jpgpemaKrawUoX-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-28" value="部分商品已发货&lt;br&gt;10" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="-710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-29" value="已完成（所有商品已发货）&lt;br&gt;3" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="-710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-30" value="客服已取消&lt;br&gt;5" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="-1080" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2400" y="-270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-32" value="已打包&lt;br&gt;3" style="whiteSpace=wrap;html=1;rounded=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="Uqmoy1jpgpemaKrawUoX-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2460" y="-300" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-34" value="有一单完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Uqmoy1jpgpemaKrawUoX-33">
+          <mxGeometry x="0.2629" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-35" value="取消&lt;br&gt;0" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="-550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-36" value="地址异常&lt;br&gt;9" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2010" y="-430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-37" value="支付超时&lt;br&gt;6" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-1050" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-38" value="支付失败&lt;br&gt;8" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-39" value="超时支付&lt;br&gt;9" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="-830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-41" target="Uqmoy1jpgpemaKrawUoX-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-41" value="已下单物流&lt;br&gt;2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-41" target="Uqmoy1jpgpemaKrawUoX-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-44" target="Uqmoy1jpgpemaKrawUoX-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-44" value="已寄送&lt;br&gt;3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2405" y="-110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-46" target="Uqmoy1jpgpemaKrawUoX-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-46" value="部分商品已发货&lt;br&gt;4" style="whiteSpace=wrap;html=1;rounded=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2400" y="-300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-48" target="Uqmoy1jpgpemaKrawUoX-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-48" value="已寄送&lt;br&gt;5" style="whiteSpace=wrap;html=1;rounded=1;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2600" y="-300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-49" value="取消&lt;br&gt;0" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1995" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Uqmoy1jpgpemaKrawUoX-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.164;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Uqmoy1jpgpemaKrawUoX-11" target="Uqmoy1jpgpemaKrawUoX-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
